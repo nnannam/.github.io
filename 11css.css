@@ -1,0 +1,103 @@
+html{
+    background-color: #f2d7b9;
+    background-image: url("капи.png"), url("капи.png");
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-size: 200px; 
+    
+    /* border: 100px solid #f2d7b9; 
+    border-image: url("капи11.png") 340; 
+    height: 100vh;
+    border-image-repeat:round;
+    border-image-width: 100px;
+    border-top: 0; */
+}
+h1{
+    color:#4A3324;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Georgia';
+    text-align: center;
+    text-shadow: 1px 1px 2px lightslategray;
+    display: flex;
+    justify-content:center;
+}
+h2{
+    color:#806454;
+    font-size: 1em;
+    font-family: 'Georgia';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+.hh{
+    border: 2px solid #806454;
+    padding: 10px;
+    width: 60%;
+    background-color: #E8BF9F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+ul{
+    display: flex;
+    justify-content:center;
+    padding-top: 5px;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
+    background-color:  #966A4D;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 90%;
+    font-weight: bold;
+    color:#f2d7b9 
+    
+}
+p{
+    overflow: visible;
+    box-sizing: content-box;
+    border: 1px dashed #999;
+    font-size: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #efd7ba;
+    color: #806454;
+    padding: 5px;
+}
+
+.block{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+}
+details{
+    background-color: #f7f5ed;
+    text-align: left;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #6b4c39;
+    display: block;
+    font-size: 100%;
+    padding: 5px;
+    font-weight:normal;
+}
+details:first-child{
+    margin-top: 5px;
+}
+details:hover{
+    background-color: #eed0b9;
+}
+details[open] summary{
+    border: 3px solid rgb(84, 60, 45);
+}
+
